@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>beta</title>
+</head>
+<body>
+
+	<h1>Pruebas</h1>
+
+	<label>Ingrese el enlace del video</label>
+
+	<input type="text" id="txtLink">
+
+	<br>
+	<br>
+
+	<button id="btnPush">Registrar</button>
+
+	<br>
+	<br>
+
+	<button id="btnOn">Iniciar primera registrada</button>
+
+	<br>
+	<br>
+
+	<iframe id="video" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	<br>
+	<br>
+	
+	<button id="btnNext">Siguiente</button>
+
+	<br>
+	<br>
+	
+	<button id="btnRestart">Reinicio</button>
+
+
+	
+	
+	<script src="js/jquery-3.3.1.min.js"></script>
+
+	<script type="text/javascript">
+		
+		$(document).ready(function(){
+
+			var links = [];
+			var conteo = 0;
+
+			//guarda los enlaces copiados en el input(txtLink) y los pone en links
+			$('#btnPush').on('click', function(){
+
+				var enlace = $('#txtLink').val();
+
+				var agregar = "https://www.youtube.com/embed/" + enlace.substring(32, 44);
+
+				links.push(agregar);
+			})
+
+			$('#btnOn').on('click', function(){
+				$('#video').attr("src", links[0]);
+	
+			})
+
+			$('#btnNext').on('click', function(){
+				conteo++;
+				$('#video').attr("src", links[conteo]);
+			})
+
+			$('#btnRestart').on('click', function(){
+				conteo = 0;
+				links = [];
+				console.log(links);
+				$('#video').attr("src", "");
+			})
+
+
+		})
+			
+	</script>
+</body>
+</html>

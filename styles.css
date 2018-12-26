@@ -45,6 +45,11 @@ body{
   opacity: 1;
   right: 0;
 }
+.button:active
+{
+  transform: scale(1.05);
+}
+
 iframe{
 	background-image: url('carga.gif');
 	border-radius: 10px;
@@ -79,6 +84,9 @@ iframe{
 .urlvid{
 	font-size: 20px;
 	color: #FFFFFF;
+}
+.linkss{
+  float: right;
 }
 
 

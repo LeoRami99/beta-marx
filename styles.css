@@ -77,9 +77,13 @@ iframe{
   margin-top:20px;
 }
 .nav{
-	background-color:#b92424;
+	background-color:#b92624;
 	padding: 20px;
 	color: white;
+}
+.logo{
+  width: 150px;
+  height: 150px;
 }
 .urlvid{
 	font-size: 20px;
@@ -88,5 +92,4 @@ iframe{
 .linkss{
   float: right;
 }
-
 

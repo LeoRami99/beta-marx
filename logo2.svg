@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg305"
+   version="1.1"
+   height="100"
+   width="100"
+   viewBox="0 0 100 100"
+   style="isolation:isolate">
+  <metadata
+     id="metadata309">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs265">
+    <clipPath
+       id="_clipPath_QByp0zxLyE6YIvBgJpW5moFiM5zg5LH7">
+      <rect
+         id="rect262"
+         height="100"
+         width="100" />
+    </clipPath>
+  </defs>
+  <g
+     id="g303"
+     clip-path="url(#_clipPath_QByp0zxLyE6YIvBgJpW5moFiM5zg5LH7)">
+    <defs
+       id="defs278">
+      <filter
+         color-interpolation-filters="sRGB"
+         filterUnits="objectBoundingBox"
+         height="400%"
+         width="400%"
+         y="-200%"
+         x="-200%"
+         id="64i5sJOstMAqetZobcL5WQNUD9yZG3BV">
+        <feGaussianBlur
+           id="feGaussianBlur267"
+           stdDeviation="0.42936090628390283"
+           in="SourceGraphic" />
+        <feOffset
+           id="feOffset269"
+           result="pf_100_offsetBlur"
+           dy="0"
+           dx="4" />
+        <feFlood
+           id="feFlood271"
+           flood-opacity="0.65"
+           flood-color="#000000" />
+        <feComposite
+           id="feComposite273"
+           result="pf_100_dropShadow"
+           operator="in"
+           in2="pf_100_offsetBlur" />
+        <feBlend
+           id="feBlend275"
+           mode="normal"
+           in2="pf_100_dropShadow"
+           in="SourceGraphic" />
+      </filter>
+    </defs>
+    <g
+       id="g282"
+       filter="url(#64i5sJOstMAqetZobcL5WQNUD9yZG3BV)">
+      <path
+         id="path280"
+         stroke-miterlimit="3"
+         stroke-linecap="square"
+         stroke-linejoin="miter"
+         stroke="rgb(152,0,0)"
+         stroke-width="2"
+         vector-effect="non-scaling-stroke"
+         fill="none"
+         d=" M 20.834 71.596 L 21.123 47.417 L 21.413 23.237 C 21.499 16.052 26.616 13.144 32.833 16.748 L 54.269 29.175 L 75.705 41.603 C 81.922 45.207 81.858 50.946 75.562 54.411 L 53.824 66.375 L 32.085 78.338 C 25.79 81.803 20.748 78.782 20.834 71.596 Z " />
+    </g>
+    <defs
+       id="defs295">
+      <filter
+         color-interpolation-filters="sRGB"
+         filterUnits="objectBoundingBox"
+         height="400%"
+         width="400%"
+         y="-200%"
+         x="-200%"
+         id="GzH5CHXhvQLJXhSz7NRXdJiG6RT1r8aE">
+        <feGaussianBlur
+           id="feGaussianBlur284"
+           stdDeviation="0.42936090628390283"
+           in="SourceGraphic" />
+        <feOffset
+           id="feOffset286"
+           result="pf_100_offsetBlur"
+           dy="0"
+           dx="3" />
+        <feFlood
+           id="feFlood288"
+           flood-opacity="0.65"
+           flood-color="#000000" />
+        <feComposite
+           id="feComposite290"
+           result="pf_100_dropShadow"
+           operator="in"
+           in2="pf_100_offsetBlur" />
+        <feBlend
+           id="feBlend292"
+           mode="normal"
+           in2="pf_100_dropShadow"
+           in="SourceGraphic" />
+      </filter>
+    </defs>
+    <g
+       id="g301"
+       filter="url(#GzH5CHXhvQLJXhSz7NRXdJiG6RT1r8aE)">
+      <g
+         id="g299"
+         transform="matrix(1,0,0,1,13,33.987)">
+        <text
+           id="text297"
+           style="font-family:'Finger Paint';font-weight:400;font-size:20px;font-style:normal;fill:#000000;stroke:none;"
+           transform="matrix(1,0,0,1,0,21.94)">MARX</text>
+      </g>
+    </g>
+  </g>
+</svg>
